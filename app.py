@@ -95,7 +95,7 @@ def initialize_chain():
 
 def main():
     st.set_page_config(page_title='🏠🏠KB 부동산 AI 상담🏠🏠')
-    st.title('부동산 전문 상담가')
+    st.title('🏠🏠KB 부동산 AI 상담🏠🏠')
     st.caption('2024버전입니다')
     
     if 'messages' not in st.session_state:
