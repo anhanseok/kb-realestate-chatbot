@@ -105,7 +105,7 @@ def main():
         with st.chat_message(message['role']):
             st.markdown(message['content'])
     
-    if prompt := st.chat_input('부동산관련 질문을 하세요'):
+    if prompt := st.chat_input('저는 부동산 관련AI챗봇입니다.궁금한게있으시면 무엇이든 물어보세요!'):
         with st.chat_message('user'):
             st.markdown(prompt)
         st.session_state.messages.append({'role': 'user', 'content': prompt})
